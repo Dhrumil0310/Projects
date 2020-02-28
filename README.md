@@ -1,5 +1,3 @@
-# Projects
-
 Rock, Paper, Scissors
 https://rockpaperscissors-dshah.netlify.com/
 

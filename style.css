@@ -1,0 +1,1117 @@
+@import url("https://fonts.googleapis.com/css2?family=Domine&family=Pridi:wght@500&display=swap");
+
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+
+html,
+body {
+  display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#loading {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #fff url(images/fadingballs.gif) no-repeat center center;
+  z-index: 99999;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*fonts*/
+
+.pridi14 {
+  font-family: "Pridi", sans-serif;
+  font-size: 14px;
+}
+
+.pridi18 {
+  font-family: "Pridi", sans-serif;
+  font-size: 18px;
+}
+
+.pridi24 {
+  font-family: "Pridi", sans-serif;
+  font-size: 24px;
+}
+
+.pridi36 {
+  font-family: "Pridi", sans-serif;
+  font-size: 36px;
+}
+
+.pridi60 {
+  font-family: "Pridi", sans-serif;
+  font-size: 60px;
+}
+
+.domine14 {
+  font-family: "Domine", sans-serif;
+  font-size: 14px;
+}
+
+.domine18 {
+  font-family: "Domine", sans-serif;
+  font-size: 18px;
+}
+
+.domine24 {
+  font-family: "Domine", sans-serif;
+  font-size: 24px;
+}
+
+/*fonts-end*/
+
+.fix .gotopbtn {
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  background: #63b038;
+  bottom: 50px;
+  right: 40px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+  z-index: 99999;
+  font-size: large;
+}
+
+.gotopbtn .top {
+  margin-top: -20px;
+}
+
+.top {
+  height: -100px;
+  font-size: 10px;
+  font-weight: 10px;
+}
+
+.fix .gotopbtn :hover {
+  color: white;
+}
+
+.navlogo {
+  width: 140px;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav .icop {
+  color: #63b038 !important;
+  font-size: 20px;
+}
+
+.topnav .icap {
+  color: #63b038 !important;
+  font-size: 20px;
+}
+
+.navbar {
+  position: fixed;
+  background-color: white;
+  z-index: 99999;
+  width: 100%;
+  top: 0px;
+  box-shadow: 0 1px 1px #f4f4f4;
+}
+
+.topnav a {
+  color: black;
+  text-align: center;
+  padding: 15px 5px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+nav > a > img {
+  width: 150px;
+}
+
+.section1 .col-md-5 h1 {
+  font-family: "Pridi", serif;
+  font-size: 48px;
+  color: #63b038;
+}
+
+.section1 .col-md-5 h2 {
+  font-size: 48px;
+  font-family: "Pridi", serif;
+  color: #242430;
+}
+
+.section1 .col-md-5 p {
+  font-size: 14px;
+  font-family: "Domine", serif;
+  color: black;
+}
+
+.section1 .col-md-5 {
+  padding-top: 80px;
+}
+
+/*buttons*/
+.button {
+  background-color: #63b038;
+  border: none;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: 500;
+  display: block;
+  background: linear-gradient(to right, black 50%, #63b038 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+  outline: none;
+}
+
+.button:hover {
+  background-position: left bottom;
+}
+
+.button1 {
+  background-color: #63b038;
+  border: none;
+  color: white;
+  padding: 6px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 30px;
+  display: block;
+  background: linear-gradient(to right, black 50%, #63b038 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+  outline: none;
+  font-family: "Pridi", sans-serif;
+  font-size: 18px;
+}
+
+.button1:hover {
+  background-position: left bottom;
+}
+
+.button2 {
+  background-color: #63b038;
+  border: none;
+  color: white;
+  padding: 6px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 30px;
+  display: block;
+  background: linear-gradient(to right, black 50%, #63b038 0%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+  font-family: "Pridi", serif;
+  font-size: 18px;
+  outline: none;
+}
+
+.button2:hover {
+  background-position: left bottom;
+}
+
+.button3 {
+  background-color: #63b038;
+  border: none;
+  color: white;
+  padding: 10px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 30px;
+  display: block;
+  background: linear-gradient(to right, black 50%, #63b038 0%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+  font-family: "Pridi", serif;
+  font-size: 30px;
+  outline: none;
+}
+
+.button3:hover {
+  background-position: left bottom;
+}
+
+.button4 {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 30px;
+  font-family: "Pridi", sans-serif;
+  font-size: 24px;
+}
+
+/*section-2*/
+
+.card {
+  border-radius: 0;
+}
+
+.section2 {
+  background-image: url(images/footer-bg.png);
+  padding-top: 40px;
+  padding-bottom: 60px;
+  font-family: "Domine", serif;
+}
+
+.section2 .col-md-8 > h2 {
+  color: white !important;
+  font-family: "Pridi", serif;
+  font-size: 36px;
+}
+
+.section2 .col-md-4 > img {
+  height: 20px;
+  width: 20px;
+}
+/*section-3*/
+
+.section3 {
+  background: linear-gradient(to right, #61af35, #85c163);
+  padding-top: 20px;
+}
+
+.section3 .level {
+  font-family: "Pridi", serif;
+}
+
+.section3 .km {
+  font-size: 14px;
+  font-family: "Domine", serif;
+}
+
+/*section-4*/
+
+.section4 {
+  background-color: #eaefe8;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+.section4 .container .advan {
+  color: #63b038;
+  font-family: "Pridi", serif;
+  font-size: 24px;
+}
+
+.section4 .ad {
+  font-size: 36px;
+  font-family: "Pridi", serif;
+}
+
+.section4 .container .para {
+  font-size: 14px;
+  font-family: "Domine", serif;
+}
+
+.section4 .will {
+  color: #63b038;
+}
+
+/*section-5*/
+
+.section5 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section5 .container .add {
+  font-family: "Pridi", serif;
+  font-size: 36px;
+}
+
+.section5 .col-sm-2 img {
+  width: 80px;
+  height: 80px;
+}
+
+/*section-6*/
+
+.section6 {
+  background-color: #252531;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.section6 .millions {
+  font-family: "Pridi", serif;
+  font-size: 48px;
+  color: white !important;
+}
+
+.section6 .money {
+  font-family: "Pridi", serif;
+  font-size: 24px;
+  color: #63b038 !important;
+}
+
+.section6 .para {
+  font-family: "Domine", serif;
+  font-size: 14px;
+  color: white !important;
+}
+
+/* section-65*/
+
+.section-65 {
+  margin-top: -40px;
+}
+
+.section-65 .card {
+  padding: 60px;
+}
+
+.section-65 .col-md-8 {
+  background-color: #63b038 !important;
+}
+
+.section-65 .col-md-8 .myimage {
+  padding-top: 80px;
+  width: 50%;
+  border-radius: 0.2em;
+}
+
+.section-65 .card-title {
+  font-family: "Pridi", serif;
+  font-size: 40px;
+}
+
+.section-65 .card-text {
+  font-family: "Domine", serif;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.section-65 .padding-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/*section-7*/
+
+.section7 .add {
+  font-family: "Pridi", serif;
+  font-size: 36px;
+}
+
+section7 .card {
+  padding-top: 30px;
+}
+
+.section7 .card .bullets {
+  list-style: none;
+}
+
+.section7 .card {
+  padding-top: 30px;
+}
+
+.section7 .card .resource {
+  margin-left: 105px;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+}
+
+.section7 .card .button2 {
+  margin-left: 60px;
+  font-family: "Pridi", sans-serif;
+}
+
+.section7 .card-title {
+  font-family: "Pridi", serif;
+  font-size: 24px;
+}
+
+.section7 .bullets {
+  font-family: "Domine", serif;
+  font-size: 14px;
+}
+
+.section7 .card-body > h2 {
+  color: #5cad2f;
+  font-family: "Pridi", serif;
+  font-size: 64px;
+}
+
+.section7 {
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+/*section-8*/
+
+.section8 {
+  background: linear-gradient(to right, #5cad2f, #85c263);
+}
+
+.section8 .col-md-5 .leaves {
+  margin-bottom: 30px;
+  height: 200px;
+}
+
+.section8 .col-md-6 .mission {
+  font-family: "Pridi", serif;
+  font-size: 18px;
+}
+
+.section8 .col-md-6 .cleaner {
+  font-family: "Pridi", serif;
+  font-size: 36px;
+}
+
+.section8 .col-md-6 > h6 {
+  color: black;
+  font-weight: 0.1px;
+}
+
+.section8 .col-md-6 > h2 {
+  font-size: 38px;
+  color: white;
+}
+
+/* section 9*/
+
+.section9 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f4f4f4;
+}
+
+.section9 .col-md-12 > h2 {
+  padding-top: 100px;
+  font-family: "Pridi", serif;
+  font-size: 36px;
+}
+
+.section9 .col-md-12 > p {
+  font-family: "Domine", serif;
+  font-size: 14px;
+}
+
+.section9 .col-md-6 .mobile {
+  height: 500px;
+  width: 270px;
+}
+
+/*section 10*/
+
+.section10 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.section10 .container .row {
+  padding-top: 60px;
+}
+
+.section10 .container .add {
+  font-family: "Pridi", serif;
+  font-size: 36px;
+}
+
+.section10 .card .card-title {
+  font-family: "Pridi", serif;
+  font-size: 24px;
+}
+
+.section10 .card .card-text {
+  font-family: "Domine", serif;
+  font-size: 14px;
+}
+
+.section10 .card .card-body .para {
+  font-family: "Domine", serif;
+  font-size: 14px;
+  color: #5cad2f;
+}
+
+.section10 .col-md-12 .card {
+  border: none;
+}
+
+.inner {
+  overflow: hidden;
+}
+
+.inner img {
+  transition: all 0.5s ease;
+}
+
+.inner:hover img {
+  transform: scale(1.1);
+}
+
+/*section-105*/
+
+.section105 .foottop {
+  font-family: "Domine", serif;
+  font-size: 14px;
+  color: white !important;
+  background: linear-gradient(to right, #5cad2f, #84c162);
+  padding: 30px;
+  height: 80px;
+  margin-bottom: -40px;
+}
+
+.section105 .foottop:hover {
+  background: linear-gradient(to right, black, gray);
+}
+
+.section105 .padding-0 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/*section11*/
+
+.section11 {
+  background-image: url(images/footer-bg.png);
+  padding-top: 50px;
+  padding-bottom: 13px;
+}
+
+.section11 .final {
+  color: #7b7b83;
+  font-family: "Domine", serif;
+  font-size: 14px;
+}
+
+.section11 .foot {
+  margin-top: 50px;
+  width: 170px;
+  height: 57px;
+}
+
+.section11 .final1 {
+  color: white;
+  font-family: "Domine", serif;
+  font-size: 14px;
+}
+.section11 .circle {
+  color: #63b038 !important;
+  font-size: 40px;
+}
+
+.section11 .circle:hover {
+  color: white !important;
+}
+
+/*page not found*/
+.section12 {
+  margin-top: 0px;
+}
+
+.images {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url(images/header-bg-1.jpg);
+  opacity: 0.8;
+}
+
+.images .anc {
+  text-decoration: none;
+  color: #63b038 !important;
+}
+
+.pagenot {
+  font-family: "Pridi", serif;
+  font-size: 60px;
+  color: white !important;
+}
+
+.no {
+  font-family: "Domine", serif;
+  font-size: 20px;
+  color: white !important;
+}
+
+.section12 .para {
+  font-family: "Pridi", serif;
+  font-size: 60px;
+  color: #63b038;
+}
+
+.section12 .para1 {
+  font-family: "Pridi", serif;
+  font-size: 30px;
+  color: #242430;
+}
+
+.section12 .para1 {
+  font-family: "Pridi", serif;
+  font-size: 30px;
+  color: #242430;
+}
+
+.section12 .para2 {
+  font-family: "Domine", serif;
+  font-size: 14px;
+  color: #242430;
+}
+
+.section12 .container {
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+.section12 .button1 {
+  font-family: "Pridi", sans-serif;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*FAQS*/
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  font-size: 22px;
+  font-family: "Pridi", sans-serif;
+  background-color: white;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: 0.2px solid #f4f4f4;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+.accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  font-family: "Domine", sans-serif;
+  font-size: 14px;
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  border: 0.2px solid #f4f4f4;
+}
+
+/*team*/
+
+.team .card-title {
+  font-family: "Pridi", sans-serif;
+  font-size: 24px;
+}
+
+.team .card-title:hover {
+  color: #63b038 !important;
+  cursor: pointer;
+}
+
+.team .card {
+  border: none;
+}
+
+.team .card .card-image-top {
+  width: 500px;
+}
+
+.team .card .myimage {
+  padding: 15px;
+  border: 1px solid #eaefe8;
+  width: 220px;
+}
+
+.team .card .myimage:hover {
+  border: 1px solid #63b038;
+  cursor: pointer;
+}
+
+.team .card-text {
+  font-family: "Domine", sans-serif;
+  font-size: 14px;
+  color: #63b038 !important;
+}
+
+/*testimonials*/
+
+.rate {
+  float: left;
+  height: 20px;
+  padding: 0 10px;
+}
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
+}
+.rate:not(:checked) > label:before {
+  content: "★ ";
+}
+.rate > input:checked ~ label {
+  color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+
+.testimonials .container .title {
+  font-family: "Pridi", sans-serif;
+  font-size: 24px;
+}
+
+.testimonials .container {
+  padding: 50px;
+}
+
+.testimonials .container .row .myimage {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.testimonials .container .row .profession {
+  font-family: "Pridi", sans-serif;
+  font-size: 16px;
+}
+
+.testimonials .container .row .para {
+  font-family: "Pridi", sans-serif;
+  font-size: 16px;
+  padding-top: 50px;
+}
+
+/*contact us*/
+
+.contact {
+  padding-top: 80px;
+}
+
+.contact .Nam {
+  font-family: "Domine", sans-serif;
+  font-family: 400px;
+}
+
+.contact .col-md-4 .tag {
+  font-family: "Domine", sans-serif;
+  font-weight: 700px;
+}
+
+.contact .col-md-4 .week .days {
+  font-family: "Domine", sans-serif;
+  font-weight: 700px;
+}
+
+.contact input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.contact input[type="submit"] {
+  background-color: #63b038;
+  border: none;
+  color: white;
+  padding: 10px 35px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 30px;
+  font-family: "Pridi", serif;
+  font-size: 24px;
+  margin-left: 70px;
+}
+
+.contact input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.contact .Contacts {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#social {
+  text-align: left;
+}
+
+.smGlobalBtn {
+  /* global button class */
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ddd; /* add border to the buttons */
+  box-shadow: 0 3px 3px #999;
+  padding: 0px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 27px;
+  -moz-border-radius: 27px;
+  -webkit-border-radius: 27px;
+}
+
+/* facebook button class*/
+.facebookBtn {
+  background: #4060a5;
+}
+
+.facebookBtn:before {
+  /* use :before to add the relevant icons */
+  font-family: "FontAwesome";
+  content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover {
+  color: #4060a5;
+  background: #fff;
+  border-color: #4060a5; /* change the border color on mouse hover */
+}
+
+/* twitter button class*/
+.twitterBtn {
+  background: #00abe3;
+}
+
+.twitterBtn:before {
+  font-family: "FontAwesome";
+  content: "\f099"; /* add twitter icon */
+}
+
+.twitterBtn:hover {
+  color: #00abe3;
+  background: #fff;
+  border-color: #00abe3;
+}
+
+/* google plus button class*/
+.googleplusBtn {
+  background: #e64522;
+}
+
+.googleplusBtn:before {
+  font-family: "FontAwesome";
+  content: "\f0d5"; /* add googleplus icon */
+}
+
+.googleplusBtn:hover {
+  color: #e64522;
+  background: #fff;
+  border-color: #e64522;
+}
+
+/* linkedin button class*/
+.linkedinBtn {
+  background: #0094bc;
+}
+
+.linkedinBtn:before {
+  font-family: "FontAwesome";
+  content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedinBtn:hover {
+  color: #0094bc;
+  background: #fff;
+  border-color: #0094bc;
+}
+
+/*About Company*/
+/*about.html*/
+
+.section15 {
+  background: linear-gradient(to right, #5cad2f, #85c263);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section15 .row {
+  width: 100%;
+}
+
+.section15 .col-md-6 > h1 {
+  font-family: "Pridi", sans-serif;
+  font-size: 30px;
+}
+
+.section15 .col-md-6 .sub {
+  color: white !important;
+}
+
+.section15 #fname {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/*gallery 2-column*/
+.gallery .card {
+  border: none;
+}
+
+.gallery .card-title {
+  font-family: "Pridi", sans-serif;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .section10 .col-md-12 .card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section10 .button3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section7 .col-md-12 .card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .topnav {
+    text-align: center;
+    justify-content: center;
+  }
+  .topnav .extra {
+    display: none;
+  }
+  .section105 .foottop {
+    margin-bottom: 0px;
+  }
+
+  .section1 .col-md-6 .car {
+    width: 100%;
+  }
+
+  .section1 .fix {
+    display: none;
+  }
+
+  .section9 .mobile {
+    padding-top: 50px;
+  }
+
+  .section2 {
+    margin-top: 30px;
+  }
+
+  .section-65 {
+    display: none;
+  }
+
+  .testimonials .card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .section7 .col-md-4 .card {
+    margin-left: 5%;
+  }
+
+  .section9 > img {
+    padding-top: 20px;
+  }
+
+  .section1 .col-md-6 .car {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .section1 .col-md-6 .car {
+    padding-top: 100px;
+    width: 100%;
+  }
+
+  .section2 {
+    margin-top: 40px;
+  }
+
+  .section9 .gooogle {
+    text-align: center;
+  }
+
+  .section10 .col-md-12 .card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section10 .button3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section7 .col-md-12 .card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
